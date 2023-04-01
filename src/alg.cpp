@@ -27,7 +27,7 @@ int getPriority4Oper(char c) {
     }
     return 0;
 }
-std::string inf2pstfx(std::string inf) {
+std::string infx2pstfx(std::string inf) {
     TStack<char, 100> stack1;
     int len = 0;
     std::string result;
